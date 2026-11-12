@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio de Majo Santos, estudiante de desarrollo de software.">
+  <title>Majo Santos | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <div class="nav-links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a class="nav-contact" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-copy">
+        <h1>Hola, soy<br><span>Majo Santos.</span></h1>
+        <p class="hero-description">Soy estudiante de desarrollo de software y me interesa crear soluciones tecnológicas que ayuden a resolver necesidades reales.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#proyectos">Ver mis proyectos <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="#contacto">Conóceme un poco más <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-meta"><span>📍 El Salvador</span><span class="meta-divider"></span><span>Desarrollo de software</span></div>
+      </div>
+      <div class="portrait-wrap">
+        <img class="portrait" src="assets/majo-santos.jpeg" alt="Foto de Majo Santos">
+      </div>
+      <a class="scroll-cue" href="#sobre-mi"><span></span> DESLIZA PARA EXPLORAR</a>
+    </section>
+
+    <section class="section about-section" id="sobre-mi">
+      <div class="container about-grid">
+        <div>
+          <h2>Un poco<br><span>sobre mí</span></h2>
+        </div>
+        <div class="about-copy">
+          <p>Estoy construyendo mi camino en el desarrollo de software. Me gusta aprender y buscar la manera de transformar una idea en una solución tecnológica que sea útil y fácil de usar.</p>
+          <p>"Si lo puedes imaginar, lo puedes programar"</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="habilidades">
+      <div class="container">
+        <div class="section-heading">
+          <div><h2>Mis habilidades<span>.</span></h2></div>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card"><span class="skill-icon">&lt;/&gt;</span><h3>Desarrollo web</h3><p>HTML · CSS · TypeScript</p></article>
+          <article class="skill-card"><span class="skill-icon">▧</span><h3>Diseño de interfaces</h3><p>Diseño adaptable</p></article>
+          <article class="skill-card"><span class="skill-icon">⌘</span><h3>Resolución de problemas</h3><p>Analizar y buscar soluciones</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="proyectos">
+      <div class="container">
+        <div class="section-heading">
+          <div><h2>Proyectos<span>.</span></h2></div>
+          <p>Una selección de trabajos personales<br>y proyectos de aprendizaje.</p>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-art project-preview"><span class="art-label">WEB</span><iframe src="https://plataforma-ciencias-univo.fly.dev/home" title="Vista previa de GRAVCI" loading="lazy" tabindex="-1" aria-hidden="true"></iframe></div>
+            <div class="project-info"><div><h3>GRAVCI</h3><p>Proyecto en grupo: plataforma de aprendizaje de ciencias para estudiantes de segundo grado.</p></div><a href="https://plataforma-ciencias-univo.fly.dev/home" target="_blank" rel="noreferrer" aria-label="Abrir GRAVCI">↗</a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-art project-screenshot"><span class="art-label">WEB</span><img src="assets/control-gastos.png" alt="Captura de la página de Control de gastos"></div>
+            <div class="project-info"><div><h3>Control de gastos</h3><p>Web para administrar ingresos y gastos, útil para organizar las finanzas personales.</p></div><a href="https://github.com/SntsmAry17/control-gastos" target="_blank" rel="noreferrer" aria-label="Ver el repositorio de Control de gastos en GitHub">↗</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contacto">
+      <div class="container contact-content">
+        <h2>Contacto<span>.</span></h2>
+        <p>Si quieres conversar sobre algún proyecto, puedes escribirme.</p>
+        <a class="button button-light" href="https://github.com/SntsmAry17" target="_blank" rel="noreferrer">Mi GitHub <span aria-hidden="true">↗</span></a>
+        <p class="contact-email">mariajosesantoshernandez17@gmail.com</p>
+      </div>
+      <span class="contact-decoration" aria-hidden="true">✳</span>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="container"><p>Portafolio de Majo Santos <span>© 2026</span></p><a href="#inicio" class="back-top">Volver arriba ↑</a></div></footer>
+</body>
+</html>
